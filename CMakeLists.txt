@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 add_subdirectory(flight_library)
 
 set(SOURCE_FILES
-        main.cpp)
+        main.cpp Solution.h)
 
 add_executable(${TARGET} ${SOURCE_FILES})
 target_link_libraries(${TARGET} flight_library)

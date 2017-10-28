@@ -6,9 +6,12 @@
 class FlightEncoder
 {
 public:
-    FlightEncoder(const InternalDataStructure& internalDataStructure)
-            : m_internalDataStructure(internalDataStructure)
-    {}
+    FlightEncoder(const InternalDataStructure& internalDataStructure);
+
+    void encode() const;
+    void encodePassenger() const;
+    void encoderFlight() const;
+    void encoderOtherStuff() const;
 
 private:
     const InternalDataStructure& m_internalDataStructure;

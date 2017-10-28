@@ -3,6 +3,8 @@ project(handling_legacy_code_in_cpp_with_runtime_polymorphism_kata)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_subdirectory(flight_library)
+
 set(SOURCE_FILES
         main.cpp)
 
